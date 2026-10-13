@@ -53,6 +53,11 @@
     .ctg{
         gap:35px;
     }
+
+
+    .intervenants{
+        display: grid;
+    }
 }
 
 @media (min-width: 1440px) {
