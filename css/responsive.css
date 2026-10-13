@@ -1,3 +1,4 @@
+
 @media (min-width: 768px) {
     .img-ag{
         padding: 80px 250px;
@@ -53,11 +54,76 @@
     .ctg{
         gap:35px;
     }
-
-
     .intervenants{
         display: grid;
     }
+  .a-venir {
+        grid-template-columns: 1fr 1fr;
+    }
+    .avenir-title {
+         grid-column: 1 / -1;
+         margin-left: 3%;
+         margin-top: 30px;
+         margin-bottom: 12px;
+    }
+    .big-title {
+    margin-left: 25px;
+    font-size: 20px;
+}
+.hero-paragraph {
+    font-size: 20px;
+}
+
+    nav .menu {
+        display: none;
+    }
+    nav .nav-links {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+       gap: 24px;
+       align-items: center;
+       margin-right: 25px;
+    }
+        nav a {
+        text-decoration: none;
+        color: black;
+     }
+     nav .nav-links .Sinscrire {
+        background-color: #C2410C;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+     }
+    nav a:hover {
+        color: #C2410C;
+        border-bottom: 1px solid #C2410C;
+    }
+    footer .footer-p {
+        display: flex;
+        gap:10px;
+    }
+    .big {
+        width: 360px;
+    }
+    .wd-two{
+        width: 410px;
+    }
+    .a-venir .sous {
+        font-size: 15px;  
+    }
+    .footer-p .up {
+    font-size: 18px;
+}
+.dawn {
+    font-size: 14px;
+}
+    .a-venir .event-1 {
+            margin-inline: 23px;
+    }
+    main .Hero-section {
+    padding: 40px 20px;   
+}
 }
 
 @media (min-width: 1440px) {
@@ -116,5 +182,58 @@
     .card{
         width: 370px;
         margin-top: 15px;
+    }
+    .a-venir {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+        .avenir-title {
+        margin-left: 5%;
+        margin-top: 35px;
+         margin-bottom: 14px;
+    }
+    .big-title {
+      margin-left: 60px;
+      font-size: 30px;
+   }
+   .footer-p .up {
+    font-size: 20px;
+  }
+  .big > p{
+        width:450px;
+    }
+    .big{
+        width: 950px;
+    }
+  .dawn {
+    font-size: 16px;
+  }
+    main .Hero-section {
+    padding: 40px 20px;   
+  }
+  main .heading {
+    margin-left: 50px;
+  }
+  .hero-paragraph {
+    margin-left: 50px;
+  }
+  .heading {
+      font-size: 23px;
+    }
+     .a-venir .event-1 {
+            margin-inline: 30px;
+    }
+    .a-venir .sous {
+        grid-column: 1 / -1;
+        font-size: 16px;  
+    }
+      nav .menu {
+        display: none;
+    }
+        footer .footer-p {
+        display: flex;
+        justify-content: space-between;
+
     }
 }
