@@ -1,3 +1,4 @@
+
 @media (min-width: 768px) {
     .img-ag{
         padding: 80px 250px;
@@ -52,6 +53,9 @@
     }
     .ctg{
         gap:35px;
+    }
+    .intervenants{
+        display: grid;
     }
   .a-venir {
         grid-template-columns: 1fr 1fr;

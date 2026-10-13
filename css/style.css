@@ -324,4 +324,51 @@ footer .reserved {
     font-size: 20px;
     margin: 10px 15px;
 }
+.Hero-section-two{
+    background-color: #FFEDD5;
+    padding: 30px 15px;
+}
+.Hero-section-two > h1{
+    font-size: 32px;
+    width:300px;
+    margin-bottom: 15px;
+}
+.Hero-section-two > p{
+    font-size: 15px;
+    color: #57534E;
+    width: 300px;
+}
+.intervenants{
+    padding: 30px 15px;
+}
+.intervenants > h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.prfl{
+    width: 95px;
+    height: 90px;
+}
+.profiles{
+    border: 1px solid #E7E5E4;
+    border-radius:15px;
+    padding: 30px 20px;
+    margin: 20px 0px;
+    width: 250px;
 
+}
+.one-profile > h3{
+    font-size: 20px;
+    margin: 3px 0px;
+
+}
+.one-profile > h4{
+    font-size: 15px;
+    color: #C2410C;
+    margin-bottom: 20px;
+}
+.one-profile > p{
+    font-size: 12px;
+    color: #57534E;
+    width: 250px;
+}
