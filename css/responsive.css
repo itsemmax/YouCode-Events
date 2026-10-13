@@ -75,13 +75,13 @@
     }
     nav .nav-links {
         display: flex;
-                list-style: none;
+        list-style: none;
         margin-left: auto;
        gap: 24px;
        align-items: center;
        margin-right: 25px;
     }
-        nav .nav-links a {
+        nav a {
         text-decoration: none;
         color: black;
      }
@@ -91,10 +91,19 @@
         border-radius: 5px;
         color: white;
      }
+    nav a:hover {
+        color: #C2410C;
+        border-bottom: 1px solid #C2410C;
+    }
     footer .footer-p {
         display: flex;
-        justify-content: space-between;
-
+        gap:10px;
+    }
+    .big {
+        width: 360px;
+    }
+    .wd-two{
+        width: 410px;
     }
     .a-venir .sous {
         font-size: 15px;  
@@ -187,6 +196,12 @@
    .footer-p .up {
     font-size: 20px;
   }
+  .big > p{
+        width:450px;
+    }
+    .big{
+        width: 950px;
+    }
   .dawn {
     font-size: 16px;
   }

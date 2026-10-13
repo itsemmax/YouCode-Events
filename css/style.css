@@ -189,6 +189,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    height: 65px;
 }
 nav .nav-links {
     display: none;
@@ -301,15 +302,26 @@ main .heading {
 footer {
     background-color: black;
     padding:2%;
+    color:#FFFFFF;
 }
 .footer-p .up {
-    color: #FFFFFF;
+    margin: 10px 15px;
+    font-size: 13px;
 }
 footer .reserved {
-    color: whitesmoke;
+    padding: 15px 0px;
+    font-size: 13px;
+    margin: 0px 15px;
+    font-weight: lighter;
+    border-top:1px solid #57534E;
 }
 .dawn {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: lighter;
-    color:grey;
+    margin: 15px 15px;
 }
+.big > h2{
+    font-size: 20px;
+    margin: 10px 15px;
+}
+
