@@ -1,11 +1,175 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin:0;
     padding: 0;
+    font-family: "Bricolage Grotesque",sans-serif;
+}
+.hero {
+    background-color:#FFEDD5;
+    padding: 40px 20px;
+}
+.saison{
+    width:fit-content;
+    font-size: 13px;
+    color: #0F766E;
+    border-radius:15px;
+    padding: 5px 10px;
+    background-color:#CCFBF1;
+}
+.evnt-txt > h1{
+    font-size: 25px;
+    color:#1C1917;
+    margin: 15px 0px;
+}
+.txt{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color:#57534E;
+}
+.img-ag{
+    margin-top: 30px;
+    width: 230px;
+    padding: 25px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color:#FFFFFF;
+}
+.voir ,.inscrire{
+    width:290px;
+    height: 39px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+}
+.voir{
+    background-color: #C2410C;
+}
+.inscrire{
+    border:2px solid #C2410C;
+    color:#C2410C;
+    font-weight: bold;
+}
+.pr-events{
+    padding: 40px 20px;
+}
+.pr > h2{
+    font-size: 32px;
+}
+.event-page{
+    margin: 15px 0px;
+}
+.event-page > a,
+.event-page > i{
+    text-decoration: none;
+    color: #C2410C;
+    font-size: 15px;
+}
+.event-page > a{
+    margin-bottom:10px;
+}
+.event-page > i{
+    margin-left: 3px;
+}
+.card-img{
+    width: 290px;
+    height:150px;
+    border-radius:15px 15px 0px 0px;
+}
+.card{
+    border: 2px solid #E7E5E4;
+    height:350px;
+    width: 290px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 16px 0px  rgb(28 25 23 / 10%);
+}
+.card-txt > h4{
+    font-size: 15px;
+    background-color:#FFEDD5;
+    color:#9A3412;
+    font-weight:500;
+    border-radius: 5px;
+    margin: 15px 0px;
+    width: fit-content;
+    padding: 0px 10px;
+}
+.card-txt{
+    margin : 0px 15px;
+}
+.card-txt > h2{
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    gap:8px;
+    font-size: 14px;
+    color: #57534E;
+    margin-top: 15px;
+}
+.row > p{
+    font-size:13px;
+}
+.time-place{
+    margin: 15px 0px;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
+.stats{
+    background-color: #C2410C;
+    color :#FFFFFF;
+    padding: 20px 20px;
 }
+.two{
+    display: flex;
+    gap:20px;
+}
+.pb{
+    margin-left: 41px;
+}
+.one > h2,.pb > h2{
+    font-size: 35px;
+}
+.one > p,.pb > p{
+    font-size: 14px;
+}
+
+.explorer{
+    padding: 15px 15px;
+}
+.explorer > h2{
+    font-size: 25px;
+}
+.categorie{
+    width:240px;
+    padding: 35px 15px;
+    border: 1px solid #E7E5E4;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+.categorie > i{
+    background-color: #FFEDD5;
+    border-radius: 60%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .categorie > h2{
+    margin-top: 10px;
+    font-size: 20px;
+ }
+.categorie > p{
+    font-size: 15px;
+    color: #57534E;
+    margin-top: 15px;
+}
+
+
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
 .big-title {
     margin-left: 10px;
 }
