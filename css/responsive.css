@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+    .img-ag{
+        padding: 80px 250px;
+    }
+    .voir{
+        width:200px;
+    }
+    .inscrire{
+        width:150px;
+        margin-left: 10px;
+    }
+    .txt{
+        width:550px;
+    }
+    .evnt-txt{
+       margin-top: 25px;
+    }
+    .line{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+    }
+    .two-cards{
+        display: flex;
+        gap : 55px;
+    }
+    .stats{
+        display: flex;
+        justify-content: space-around;
+    }
+    .two{
+        gap: 90px;
+    }
+    .ctg{
+        display: flex;
+        margin: 0px 10px;
+    }
+    .categorie{
+        width: 300px;
+    }
+    .explorer{
+        margin: 35px 0px;
+    }
+    .card-img{
+        width: 330px;
+        height:200px;
+    }
+    .card{
+        height:400px;
+        width: 330px;
+        margin-top: 15px;
+    }
+    .ctg{
+        gap:35px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero {
+        display: flex;
+        justify-content: space-around;
+    }
+    .evnt-txt {
+        margin-top: 50px;
+    }
+    .voir{
+        width:200px;
+    }
+    .inscrire{
+        width:150px;
+        margin-left: 10px;
+    }
+    .img-ag{
+        padding: 50px;
+        margin-left: 20px;
+    }
+    .cards{
+        display: flex;
+        gap : 55px;
+    }
+    .two{
+        gap: 150px;
+    }
+    .ctg{
+        display: flex;
+        gap:5px;
+    }
+    .one-line{
+        display:flex;
+    }
+    .categorie{
+        width:240px;
+        margin: 20px 10px;
+    }
+    .pr-events{
+        margin: 0px 110px;
+    }
+    .one{
+        margin: 0px 0px;
+    }
+    .explorer{
+        margin: 0px 110px;
+    }
+    .two{
+        margin-right: 130px;
+    }
+    .card-img{
+        width: 370px;
+        border-radius:15px 15px 0px 0px;
+    }
+    .card{
+        width: 370px;
+        margin-top: 15px;
+    }
+}
