@@ -167,9 +167,6 @@
 
 
 
-/* *, *::before, *::after {
-    box-sizing: border-box;
-} */
 .big-title {
     margin-left: 10px;
 }
@@ -177,12 +174,10 @@
 header nav .events {
     color: #C2410C;
 }
-/**/
 main .Hero-section {
     background-color: #FFEDD5;
     padding: 30px 15px;   
 }
-/**/
 header {
     position: relative;
 }
@@ -227,7 +222,6 @@ nav .menu {
 main .Hero-section {
     background-color: #FFEDD5;
 }
-/**/
 main .heading {
     font-size: 30px;
 }
@@ -238,7 +232,7 @@ main .heading {
 }
 .a-venir .event-1 {
     margin-inline: 10px;
-    border: 1px solid gray;
+    border: 1px solid #E7E5E4;
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0px 10px 16px 0px  rgb(28 25 23 / 10%);
@@ -314,7 +308,6 @@ main .heading {
     padding: 15px 0px;
     font-size: 14px;
 }
-/**/
 footer {
     background-color: black;
     padding:2%;

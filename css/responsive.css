@@ -60,12 +60,11 @@
         gap:50px;
     }
     .profiles{
-        width:300px;
+        width:280px;
     }
   .a-venir {
         grid-template-columns: 1fr 1fr;
     }
-    /**/
     .avenir-title {
          grid-column: 1 / -1;
          margin-left: 3%;
@@ -78,8 +77,6 @@
     .hero-paragraph {
         font-size: 15px;
     }
-    /**/
-
     nav .menu {
         display: none;
     }
@@ -152,13 +149,16 @@
     }
     .partenaires > p{
         margin: 0px 45px;
-        width: 100%;
+        width:690px;
     }
    .all-part{
     grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
     margin: 20px 45px;
     gap:20px;
-}
+    }
+    .part{
+    padding :25px 15px;
+    }
 }
 
 
@@ -227,8 +227,6 @@
         margin-left: 3%;
         margin-right: 3%;
     }
-    /*remove .avenir-title*/
-    /**/
     .big-title {
       margin-left: 60px;
       font-size: 30px;
@@ -245,11 +243,9 @@
   .dawn {
     font-size: 16px;
   }
-  /**/
     main .Hero-section {
     padding: 30px 20px;   
   }
-  /**/
   main .heading {
     margin-left: 50px;
   }
