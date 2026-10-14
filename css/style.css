@@ -372,3 +372,42 @@ footer .reserved {
     color: #57534E;
     width: 250px;
 }
+
+/**/
+.partenaires{
+    padding: 30px 15px;
+}
+.partenaires > h2{
+    font-size: 32px;
+    width:300px;
+    margin-bottom: 15px;
+}
+.partenaires > p{
+    font-size: 15px;
+    color: #57534E;
+    width: 300px;
+}
+.part{
+    padding :25px 5px;
+    margin-top: 15px;
+    display:flex;
+    gap:10px;
+    border: 1px solid #E7E5E4;
+    border-radius: 15px;
+}
+.txt-part{
+    font-size: 12px;
+    color:#57534E;
+    margin-top: 4px;
+}
+.square{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: #57534E;
+}
+.all-part{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+    column-gap: 10px;
+}
