@@ -144,7 +144,6 @@
     .prfl-grid{
         margin: 0px 45px;
     }
-    /**/
     .partenaires > h2{
         margin: 0px 45px;
         width: 500px;
@@ -163,13 +162,18 @@
 
 
 @media (min-width: 1440px) {
+    /**/
     .hero {
         display: flex;
         justify-content: space-around;
     }
     .evnt-txt {
-        margin-top: 50px;
+        margin-right: 110px;
     }
+    .evnt-txt > h1{
+        font-size: 32px;
+    }
+    /**/
     .voir{
         width:200px;
     }
@@ -199,15 +203,17 @@
         width:240px;
         margin: 20px 10px;
     }
+    /**/
     .pr-events{
-        margin: 0px 110px;
+        margin: 0px 50px;
     }
     .one{
-        margin: 0px 0px;
+        margin-right: 70px;
     }
     .explorer{
-        margin: 0px 110px;
+        margin: 0px 50px;
     }
+    /**/
     .two{
         margin-right: 130px;
     }
@@ -282,5 +288,4 @@
     .Hero-section-two > p{
         width: 100%;
     }
-    /**/
 }
