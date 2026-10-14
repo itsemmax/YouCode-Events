@@ -4,13 +4,11 @@
     padding: 0;
     font-family: "Bricolage Grotesque",sans-serif;
 }
-*, *::before, *::after {
-    box-sizing: border-box;
-}
 .hero {
     background-color:#FFEDD5;
     padding: 40px 20px;
 }
+/**/
 .saison{
     width:fit-content;
     font-size: 13px;
@@ -18,14 +16,14 @@
     border-radius:15px;
     padding: 5px 10px;
     background-color:#CCFBF1;
+    margin:15px 0px;
 }
 .evnt-txt > h1{
-    font-size: 25px;
+    font-size: 28px;
     color:#1C1917;
-    margin: 15px 0px;
 }
 .txt{
-    margin-bottom: 10px;
+    margin: 10px 0px;
     font-size: 15px;
     color:#57534E;
 }
@@ -169,6 +167,10 @@
 }
 
 
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
 .big-title {
     margin-left: 10px;
 }
@@ -371,6 +373,8 @@ footer .reserved {
     color: #57534E;
     width: 250px;
 }
+
+/**/
 .partenaires{
     padding: 30px 15px;
 }
