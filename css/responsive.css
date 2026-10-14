@@ -54,8 +54,13 @@
     .ctg{
         gap:35px;
     }
-    .intervenants{
+    .prfl-grid{
         display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:50px;
+    }
+    .profiles{
+        width:300px;
     }
   .a-venir {
         grid-template-columns: 1fr 1fr;
@@ -114,17 +119,48 @@
     }
     .footer-p .up {
     font-size: 18px;
-}
-.dawn {
+    }
+    .dawn {
     font-size: 14px;
-}
+    }
     .a-venir .event-1 {
             margin-inline: 23px;
     }
     main .Hero-section {
     padding: 40px 20px;   
+    }
+    .Hero-section-two > h1{
+        margin: 0px 45px;
+        width: 500px;
+        padding: 15px 0px;
+    }
+    .Hero-section-two > p{
+        margin: 0px 45px;
+        width: 580px;
+    }
+    .intervenants > h2{
+        margin: 0px 45px;
+    }
+    .prfl-grid{
+        margin: 0px 45px;
+    }
+    /**/
+    .partenaires > h2{
+        margin: 0px 45px;
+        width: 500px;
+        padding: 15px 0px;
+    }
+    .partenaires > p{
+        margin: 0px 45px;
+        width: 100%;
+    }
+   .all-part{
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    margin: 20px 45px;
+    gap:20px;
 }
 }
+
 
 @media (min-width: 1440px) {
     .hero {
@@ -228,12 +264,23 @@
         grid-column: 1 / -1;
         font-size: 16px;  
     }
-      nav .menu {
+    nav .menu {
         display: none;
     }
-        footer .footer-p {
+    .prfl-grid{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:50px;
+    }
+    .profiles{
+        width: 380px;
+    }
+    footer .footer-p {
         display: flex;
         justify-content: space-between;
-
     }
+    .Hero-section-two > p{
+        width: 100%;
+    }
+    /**/
 }
