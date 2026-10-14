@@ -59,11 +59,9 @@
         grid-template-columns:repeat(2,1fr);
         gap:50px;
     }
-    /**/
     .profiles{
         width:280px;
     }
-    /**/
   .a-venir {
         grid-template-columns: 1fr 1fr;
     }
@@ -149,22 +147,18 @@
         width: 500px;
         padding: 15px 0px;
     }
-    /**/
     .partenaires > p{
         margin: 0px 45px;
         width:690px;
     }
-    /**/
    .all-part{
     grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
     margin: 20px 45px;
     gap:20px;
     }
-    /**/
     .part{
     padding :25px 15px;
     }
-    /**/
 }
 
 

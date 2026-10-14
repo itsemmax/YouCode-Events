@@ -167,9 +167,6 @@
 
 
 
-/* *, *::before, *::after {
-    box-sizing: border-box;
-} */
 .big-title {
     margin-left: 10px;
 }
@@ -233,7 +230,6 @@ main .heading {
     font-size: 15px;
     padding: 15px 0px;
 }
-/**/
 .a-venir .event-1 {
     margin-inline: 10px;
     border: 1px solid #E7E5E4;
@@ -241,7 +237,6 @@ main .heading {
     overflow: hidden;
     box-shadow: 0px 10px 16px 0px  rgb(28 25 23 / 10%);
 }
-/**/
 .avenir-title {
     margin-left: 21px;
     margin-top: 35px;
@@ -400,7 +395,6 @@ footer .reserved {
     color: #57534E;
     width: 300px;
 }
-/**/
 .part{
     padding :25px 5px;
     margin-top: 15px;
@@ -409,7 +403,6 @@ footer .reserved {
     border: 1px solid #E7E5E4;
     border-radius: 15px;
 }
-/**/
 .txt-part{
     font-size: 12px;
     color:#57534E;
@@ -426,4 +419,3 @@ footer .reserved {
     grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
     column-gap: 10px;
 }
-emma
