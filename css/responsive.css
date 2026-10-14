@@ -65,19 +65,20 @@
   .a-venir {
         grid-template-columns: 1fr 1fr;
     }
+    /**/
     .avenir-title {
          grid-column: 1 / -1;
          margin-left: 3%;
-         margin-top: 30px;
-         margin-bottom: 12px;
+         margin: 35px 30px;
     }
     .big-title {
-    margin-left: 25px;
-    font-size: 20px;
-}
-.hero-paragraph {
-    font-size: 20px;
-}
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .hero-paragraph {
+        font-size: 15px;
+    }
+    /**/
 
     nav .menu {
         display: none;
@@ -162,7 +163,6 @@
 
 
 @media (min-width: 1440px) {
-    /**/
     .hero {
         display: flex;
         justify-content: space-around;
@@ -173,7 +173,6 @@
     .evnt-txt > h1{
         font-size: 32px;
     }
-    /**/
     .voir{
         width:200px;
     }
@@ -203,7 +202,6 @@
         width:240px;
         margin: 20px 10px;
     }
-    /**/
     .pr-events{
         margin: 0px 50px;
     }
@@ -213,7 +211,6 @@
     .explorer{
         margin: 0px 50px;
     }
-    /**/
     .two{
         margin-right: 130px;
     }
@@ -230,11 +227,8 @@
         margin-left: 3%;
         margin-right: 3%;
     }
-        .avenir-title {
-        margin-left: 5%;
-        margin-top: 35px;
-         margin-bottom: 14px;
-    }
+    /*remove .avenir-title*/
+    /**/
     .big-title {
       margin-left: 60px;
       font-size: 30px;
@@ -251,9 +245,11 @@
   .dawn {
     font-size: 16px;
   }
+  /**/
     main .Hero-section {
-    padding: 40px 20px;   
+    padding: 30px 20px;   
   }
+  /**/
   main .heading {
     margin-left: 50px;
   }
