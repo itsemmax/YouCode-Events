@@ -1,5 +1,63 @@
+
 @media (min-width: 768px) {
-    .a-venir {
+    .img-ag{
+        padding: 80px 250px;
+    }
+    .voir{
+        width:200px;
+    }
+    .inscrire{
+        width:150px;
+        margin-left: 10px;
+    }
+    .txt{
+        width:550px;
+    }
+    .evnt-txt{
+       margin-top: 25px;
+    }
+    .line{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+    }
+    .two-cards{
+        display: flex;
+        gap : 55px;
+    }
+    .stats{
+        display: flex;
+        justify-content: space-around;
+    }
+    .two{
+        gap: 90px;
+    }
+    .ctg{
+        display: flex;
+        margin: 0px 10px;
+    }
+    .categorie{
+        width: 300px;
+    }
+    .explorer{
+        margin: 35px 0px;
+    }
+    .card-img{
+        width: 330px;
+        height:200px;
+    }
+    .card{
+        height:400px;
+        width: 330px;
+        margin-top: 15px;
+    }
+    .ctg{
+        gap:35px;
+    }
+    .intervenants{
+        display: grid;
+    }
+  .a-venir {
         grid-template-columns: 1fr 1fr;
     }
     .avenir-title {
@@ -21,13 +79,13 @@
     }
     nav .nav-links {
         display: flex;
-                list-style: none;
+        list-style: none;
         margin-left: auto;
        gap: 24px;
        align-items: center;
        margin-right: 25px;
     }
-        nav .nav-links a {
+        nav a {
         text-decoration: none;
         color: black;
      }
@@ -37,10 +95,19 @@
         border-radius: 5px;
         color: white;
      }
+    nav a:hover {
+        color: #C2410C;
+        border-bottom: 1px solid #C2410C;
+    }
     footer .footer-p {
         display: flex;
-        justify-content: space-between;
-
+        gap:10px;
+    }
+    .big {
+        width: 360px;
+    }
+    .wd-two{
+        width: 410px;
     }
     .a-venir .sous {
         font-size: 15px;  
@@ -58,9 +125,65 @@
     padding: 40px 20px;   
 }
 }
-@media (min-width: 1024px) {
 
-     .a-venir {
+@media (min-width: 1440px) {
+    .hero {
+        display: flex;
+        justify-content: space-around;
+    }
+    .evnt-txt {
+        margin-top: 50px;
+    }
+    .voir{
+        width:200px;
+    }
+    .inscrire{
+        width:150px;
+        margin-left: 10px;
+    }
+    .img-ag{
+        padding: 50px;
+        margin-left: 20px;
+    }
+    .cards{
+        display: flex;
+        gap : 55px;
+    }
+    .two{
+        gap: 150px;
+    }
+    .ctg{
+        display: flex;
+        gap:5px;
+    }
+    .one-line{
+        display:flex;
+    }
+    .categorie{
+        width:240px;
+        margin: 20px 10px;
+    }
+    .pr-events{
+        margin: 0px 110px;
+    }
+    .one{
+        margin: 0px 0px;
+    }
+    .explorer{
+        margin: 0px 110px;
+    }
+    .two{
+        margin-right: 130px;
+    }
+    .card-img{
+        width: 370px;
+        border-radius:15px 15px 0px 0px;
+    }
+    .card{
+        width: 370px;
+        margin-top: 15px;
+    }
+    .a-venir {
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: 3%;
         margin-right: 3%;
@@ -70,28 +193,34 @@
         margin-top: 35px;
          margin-bottom: 14px;
     }
-        .big-title {
-    margin-left: 60px;
-    font-size: 30px;
-}
+    .big-title {
+      margin-left: 60px;
+      font-size: 30px;
+   }
    .footer-p .up {
     font-size: 20px;
-}
-.dawn {
+  }
+  .big > p{
+        width:450px;
+    }
+    .big{
+        width: 950px;
+    }
+  .dawn {
     font-size: 16px;
-}
+  }
     main .Hero-section {
     padding: 40px 20px;   
-}
-main .heading {
+  }
+  main .heading {
     margin-left: 50px;
-}
-.hero-paragraph {
+  }
+  .hero-paragraph {
     margin-left: 50px;
-}
-.heading {
-    font-size: 23px;
-}
+  }
+  .heading {
+      font-size: 23px;
+    }
      .a-venir .event-1 {
             margin-inline: 30px;
     }
