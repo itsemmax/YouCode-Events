@@ -8,7 +8,6 @@
     background-color:#FFEDD5;
     padding: 40px 20px;
 }
-/**/
 .saison{
     width:fit-content;
     font-size: 13px;
@@ -178,10 +177,12 @@
 header nav .events {
     color: #C2410C;
 }
+/**/
 main .Hero-section {
     background-color: #FFEDD5;
-    padding: 30px 20px;   
+    padding: 30px 15px;   
 }
+/**/
 header {
     position: relative;
 }
@@ -226,23 +227,25 @@ nav .menu {
 main .Hero-section {
     background-color: #FFEDD5;
 }
+/**/
 main .heading {
-    margin-left: 10px;
     font-size: 30px;
 }
 .hero-paragraph {
-    margin-left: 10px;
+    color:#57534E;
+    font-size: 15px;
+    padding: 15px 0px;
 }
 .a-venir .event-1 {
-     margin-inline: 10px;
+    margin-inline: 10px;
     border: 1px solid gray;
     border-radius: 24px;
     overflow: hidden;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 16px 0px  rgb(28 25 23 / 10%);
 }
 .avenir-title {
     margin-left: 21px;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 8px;
 }
 .avenir-title h3 {
@@ -250,7 +253,7 @@ main .heading {
     margin: 0;            
 }
 .avenir-title .sous {
-    font-size: 10px;
+    font-size: 18px;
     color: gray;
     margin: 6px 0 0 0;  
     font-size: 13px;  
@@ -262,16 +265,21 @@ main .heading {
     width: 100%;      
     height: auto; 
 }
-.a-venir .event-1 .atelier {
+.a-venir .event-1 .atelier, .atelier-two{
     color: #9A3412;
     background-color: #FFEDD5;
-    margin-left: 25px;
-    width: 85px;
-    height: 27px;
-    border-radius: 8%;
+    width:fit-content;
+    padding: 3px 15px;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin:15px 20px;
+    font-weight:bolder;
+}
+.atelier-two{
+    color:#0F766E;
+    background-color: #CCFBF1;
 }
 
 .a-venir {
@@ -281,25 +289,32 @@ main .heading {
     margin-bottom: 4%;
 }
 .a-venir .event-1 .grid {
-        margin-left: 25px;
+    margin-left: 25px;
     font-weight: bold;
     font-size: 20px;
+    padding: 15px 0px;
 }
 .a-venir .event-1 .date {
-        margin-left: 25px;
+    margin-left: 25px;
     color: gray;
+    padding: 15px 0px;
+    font-size: 14px;
 }
 .a-venir .event-1 .location {
-        margin-left: 25px;
+    margin-left: 25px;
     color: gray;
+    font-size: 14px;
 }
 .a-venir .event-1 a {
     margin-left: 25px;
     color: #C2410C;
     text-decoration: none;
-        display: block;
+    display: block;
     margin-bottom: 3%;
+    padding: 15px 0px;
+    font-size: 14px;
 }
+/**/
 footer {
     background-color: black;
     padding:2%;
@@ -374,7 +389,6 @@ footer .reserved {
     width: 250px;
 }
 
-/**/
 .partenaires{
     padding: 30px 15px;
 }
