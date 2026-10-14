@@ -1,8 +1,12 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin:0;
     padding: 0;
     font-family: "Bricolage Grotesque",sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 .hero {
     background-color:#FFEDD5;
@@ -166,10 +170,6 @@
 }
 
 
-
-/* *, *::before, *::after {
-    box-sizing: border-box;
-} */
 .big-title {
     margin-left: 10px;
 }
