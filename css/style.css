@@ -184,15 +184,17 @@ body {
 .reservez {
         font-weight: 400;
     font-size: 18px;
+        color: #57534E
 }
 .informations {
-        font-size: 32px;
+        font-size: 29px;
     font-weight: 700;
 }
 .champs {
-    font-size: 14px;
+    font-size: 13px;
         margin-bottom: 8%;
     margin-top: -10%;
+    color: #57534E;
 }
 form label:not(.radio-option):not(.check-option){
     display: block;
@@ -206,7 +208,7 @@ form label:not(.radio-option):not(.check-option){
  [type="tel"] {
     width: 100%;
     padding: 14px 16px;
-    border: 1px solid #D6D3D1;
+    border: 1px solid #78716C;
     border-radius: 8px;
 }
 .select {
@@ -214,6 +216,7 @@ form label:not(.radio-option):not(.check-option){
     padding: 14px 16px;
     border: 1px solid #D6D3D1;
     border-radius: 8px;
+    border-color: #78716C;
 }
 .login_info{
     margin-inline: 3%;
@@ -251,13 +254,13 @@ form label:not(.radio-option):not(.check-option){
     font-weight: 600;
 }
 form textarea {
-    padding: 1%;
+    padding: 4%;
     width: 100%;
         border: 1px solid;
     border-radius: 8px;
 }
 .check-option input[type="checkbox"] {
-        width: 26px;
+        width: 40px;
     height: 24px;
      accent-color: brown;
 }
@@ -268,7 +271,9 @@ form textarea {
 }
 .check {
     color: #1C1917;
-    font-size: 16px;
+    font-size: 15px;
+        margin-left: 6px;
+    margin-top: 6px;
 }
 .send {
     background-color: #C2410C;
@@ -276,7 +281,7 @@ form textarea {
     height: 48px;
     margin-top: 8%;
     border-radius: 8px;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
     color: white;
     font-size: 16px;
     font-weight: 500;

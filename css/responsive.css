@@ -62,7 +62,7 @@
     display: none;
 }
 .first_pragraph {
-    margin-left: 8%;
+    margin-left: 3%;
     font-size: 40px;
     font-weight: 700;
 }
@@ -75,7 +75,7 @@ font-size: 18px;
 
 .champs {
         margin-bottom: 0%;
-        margin-top: -4%;
+        margin-top: -3%;
 
 }
 .four-colum{
@@ -86,6 +86,7 @@ font-size: 18px;
 .check-option input[type="checkbox"] {
     height: 26px;
     margin-top: 3%;
+    width: 4%;
 
 }
 .check {
@@ -94,6 +95,8 @@ font-size: 18px;
 }
 .send {
     width: 36%;
+    margin-top: 4%;
+            margin-bottom: 5%;
 }
 
 
