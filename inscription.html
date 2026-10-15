@@ -107,15 +107,19 @@
             </div>
             </div>
 
-            <div>
+            <div class="form-group">
               <label for="">Événement choisi *</label>
-              <select name="" id="" class="select">
-                <option value="">Choisir un événement</option>
-                <option value="">Atelier</option>
-                <option value="">Conférence</option>
-                <option value="">Hackathon</option>
-                <option value="">Rencontre</option>
+              <select name="" id="" class="select" required >
+                <option value="" disabled selected>Choisir un événement</option>
+                <option value="atelier">Atelier</option>
+                <option value="conférence">Conférence</option>
+                <option value="hackathon">Hackathon</option>
+                <option value="rencontre">Rencontre</option>
               </select>
+                  <p class="error">
+        Veuillez sélectionner un événement.
+    </p>
+    <p class = "success">champ valid</p>
             </div>
             <p class="state">Niveau *</p>
             <div class="niveau">

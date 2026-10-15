@@ -311,7 +311,7 @@ form textarea {
 .form-group .error {
     display: none;
     font-size: 14px;
-    line-height: 1.5;
+
     margin-top: 1%;
 }
 .form-group input:valid:not(:placeholder-shown) {
@@ -327,4 +327,18 @@ form textarea {
 .form-group input:invalid:not(:placeholder-shown) ~ .error {
         display: block;
     color: #DC2626;
+}
+.form-group select:user-invalid {
+    border-color: #DC2626 ;
+}
+.form-group select:user-valid {
+    border-color: #159447 ;
+}
+.form-group select:user-invalid ~ .error {
+    display: block;
+    color: red;
+}
+.form-group select:user-valid ~ .success {
+    display: block;
+    color: #159447;
 }
