@@ -61,11 +61,50 @@
 .menue {
     display: none;
 }
+.first_pragraph {
+    margin-left: 8%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.reservez{
+font-size: 18px;
+        font-weight: 400;
+        margin-top: -2%;
 
-/* form {
+}
+
+.champs {
+        margin-bottom: 0%;
+        margin-top: -4%;
+
+}
+.four-colum{
     display: grid;
     grid-template-columns: 1fr 1fr;
-} */
+    gap: 4%;
+}
+.check-option input[type="checkbox"] {
+    height: 26px;
+    margin-top: 3%;
+
+}
+.check {
+        margin-top: 3%;
+    margin-left: 1%;
+}
+.send {
+    width: 36%;
+}
+
+
+
+
+
+
+
+
+
+
 }
 @media (min-width: 1024px) {
 
