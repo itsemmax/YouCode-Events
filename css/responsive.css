@@ -106,7 +106,7 @@ font-size: 18px;
 
 
 }
-@media (min-width: 1024px) {
+@media (min-width: 1044px) {
 
      .a-venir {
         grid-template-columns: 1fr 1fr 1fr;
@@ -155,4 +155,20 @@ main .heading {
         justify-content: space-between;
 
     }
+
+    /* ******************* */
+    .login_info{
+    max-width: 768px;
+            margin-inline: 22%;
+                    margin-top: 5%;
+}
+
+.inscription {
+    padding: 1%;
+    padding-bottom: 4%;
+}
+.first_pragraph {
+    margin-left: 8%;
+}
+
 }
