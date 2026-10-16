@@ -3,10 +3,6 @@
     margin:0;
     padding: 0;
     font-family: "Bricolage Grotesque",sans-serif;
-    box-sizing: border-box;
-}
-body {
-    overflow-x: hidden;
 }
 .hero {
     background-color:#FFEDD5;
@@ -171,19 +167,56 @@ body {
 
 
 
-.big-title {
-    margin-left: 10px;
+/**/
+header{
+    width: 100%;
+    height: 65px;
+    display:flex;
+    justify-content: space-between;
+} 
+header>h2 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+header > h2 > span{
+    color: #C2410C;
+}
+.hamburger{
+    font-size: 22px;
+    margin-top: 16px;
+    margin-right: 10px;
 }
 
-header nav .events {
-    color: #C2410C;
+.links{
+    height: 120px;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.links > a{
+    line-height: 15px;
+    text-decoration: none;
+    color: #1C1917;
+    font-size: 16px;
+}
+.Sinscrire{
+    padding: 10px 20px;
+    background-color: #C2410C;
+    border: 1px solid #423f3d;
+    border-radius: 15px;
+    color: #FFFFFF;
+    margin-top: 8px;
+    height: 40px;
 }
 main .Hero-section {
     background-color: #FFEDD5;
     padding: 30px 15px;   
 }
-header {
-    position: relative;
+.desktop-menu{
+    display:none;
+}
+/* header {
 }
 nav {
     display: flex;
@@ -192,37 +225,9 @@ nav {
     align-items: center;
     height: 65px;
 }
-nav .nav-links {
-    display: none;
-    /* width: 100%;                    
-    list-style: none;               
-    margin: 0;
-    padding: 16px 0;  
-    background-color: red;
-    position: absolute;
-      top: 100%;               
-    left: 0;
-    right: 0;
-        margin: 0;
-    padding: 8px 24px 16px; */
-    
-}
-nav .nav-links.is-open {
-    display: block;
-}
-     nav .nav-links a {
-        text-decoration: none;
-        color: black;
-     }
-nav .menu {
-    background: none;          
-    border: none;           
-    padding: 8px;             
-    font-size: 22px;           
-    color: #1C1917;            
-    cursor: pointer;          
-    border-radius: 6px;
-}
+.menu {
+} */
+/**/
 main .Hero-section {
     background-color: #FFEDD5;
 }
@@ -423,3 +428,8 @@ footer .reserved {
     grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
     column-gap: 10px;
 }
+/**/
+.hidden{
+    display: none;
+}
+/**/

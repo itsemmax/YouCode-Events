@@ -1,6 +1,6 @@
-const menuButton = document.querySelector(".menu");
-const navLinks = document.getElementById("nav-links");
+const menuButton = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".links");
 
 menuButton.addEventListener("click", function () {
-    navLinks.classList.toggle("is-open");
+    navLinks.classList.toggle("hidden");
 });
