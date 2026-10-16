@@ -21,15 +21,8 @@
         color:#C2410C;
         border-bottom: 1px solid #C2410C;
     }
-    .Sinscrire-two{
-        background-color: #C2410C;
-        border: 1px solid #423f3d;
-        border-radius: 15px;
-        color: #FFFFFF;
-        margin-top: 10px;
-        padding: 10px 20px;
-        height: 40px;
-        margin-right: 25px;
+    .button{
+        margin-top:100px;
     }
     .mobile-menu{
         display: none;
@@ -192,6 +185,45 @@
     .part{
     padding :25px 15px;
     }
+
+    /**/
+    .first_pragraph {
+        margin-left: 3%;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .reservez{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -2%;
+
+    }
+
+    .champs {
+        margin-bottom: 0%;
+        margin-top: -3%;
+
+    }
+    .four-colum{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4%;
+    }
+    .check-option input[type="checkbox"] {
+        height: 26px;
+        margin-top: 3%;
+        width: 4%;
+
+    }
+    .check {
+        margin-top: 3%;
+        margin-left: 1%;
+    }
+    .send {
+        width: 36%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
 }
 
 
@@ -329,5 +361,19 @@
     .Hero-section-two > p{
         width: 700px;
     }
-}
+    /**/
+    .login_info{
+        max-width: 768px;
+        margin-inline: 22%;
+        margin-top: 5%;
+    }
 
+    .inscription {
+        padding: 1%;
+        padding-bottom: 4%;
+    }
+    .first_pragraph {
+        margin-left: 8%;
+    }
+
+}
