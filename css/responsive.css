@@ -1,5 +1,40 @@
-
 @media (min-width: 768px) {
+    /**/
+    .desktop-menu{
+        display:flex;
+        gap:20px;
+    }
+    header>h2{
+        margin-left: 20px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .desktop-menu > a{
+        text-decoration: none;
+        color: #1C1917;
+        font-size: 16px;
+        margin-top: 22px;
+        height: 25px;
+    }
+    .desktop-menu > a:hover{
+        color:#C2410C;
+        border-bottom: 1px solid #C2410C;
+    }
+    .Sinscrire-two{
+        background-color: #C2410C;
+        border: 1px solid #423f3d;
+        border-radius: 15px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        padding: 10px 20px;
+        height: 40px;
+        margin-right: 25px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    /**/
     .img-ag{
         padding: 80px 250px;
     }
@@ -70,38 +105,36 @@
          margin-left: 3%;
          margin: 35px 30px;
     }
-    .big-title {
+    /**/
+    /* .big-title {
         margin-left: 25px;
         font-size: 20px;
     }
     .hero-paragraph {
         font-size: 15px;
     }
-    nav .menu {
-        display: none;
-    }
-    nav .nav-links {
+    .desktop-menu {
         display: flex;
         list-style: none;
-        margin-left: auto;
        gap: 24px;
        align-items: center;
        margin-right: 25px;
     }
-        nav a {
+    .desktop-menu a{
         text-decoration: none;
         color: black;
-     }
-     nav .nav-links .Sinscrire {
+    }
+    .Sinscrire {
         background-color: #C2410C;
         padding: 10px;
         border-radius: 5px;
         color: white;
      }
-    nav a:hover {
+    .desktop-menu a:hover {
         color: #C2410C;
         border-bottom: 1px solid #C2410C;
-    }
+    } */
+    /**/
     footer .footer-p {
         display: flex;
         gap:10px;
@@ -163,6 +196,20 @@
 
 
 @media (min-width: 1440px) {
+    /**/
+    .hamburger{
+    display: none;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .Sinscrire-two{
+        margin-right: 70px;
+    }
+    header>h2{
+        margin-left: 70px;
+    }
+    /**/
     .hero {
         display: flex;
         justify-content: space-around;
@@ -262,9 +309,11 @@
         grid-column: 1 / -1;
         font-size: 16px;  
     }
-    nav .menu {
+    /**/
+    /* nav .menu {
         display: none;
-    }
+    } */
+    /**/
     .prfl-grid{
         display: grid;
         grid-template-columns:repeat(3,1fr);
@@ -281,3 +330,4 @@
         width: 700px;
     }
 }
+
