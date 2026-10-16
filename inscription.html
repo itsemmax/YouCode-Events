@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inscription</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <header>
+          <h2>Youcode <span>Events</span></h2>
+        <nav class = "desktop-menu">
+            <a href="index.html">Accueil</a>
+            <a href="evenements.html">Événements</a>
+            <a href="intervenants.html">Intervenants</a>
+            <button><a href="inscription.html">S'inscrire</a></button>
+      </nav>
+      <div class ="hamburger">
+      <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+        <nav class = "mobile-menu">
+            <div class = "links hidden">
+            <a href="index.html">Accueil</a>
+            <a href="evenements.html">Événements</a>
+            <a href="intervenants.html">Intervenants</a>
+            <a class="Sinscrire" href="inscription.html">S'inscrire</a>
+            </div>
+        </nav>
+    <main>
+      <section class="inscription">
+        <h2 class="first_pragraph">Inscription</h2>
+        <p class="first_pragraph reservez">
+          Réservez votre place à un atelier, une conférence, un hackathon ou une
+          rencontre. L'inscription est gratuite.
+        </p>
+      </section>
+      <section class="login_info">
+        <div class="forma">
+          <h3 class="informations">Vos informations</h3>
+          <p class="champs">Les champs marqués * sont obligatoires.</p>
+          <form action="">
+            <div class="four-colum">
+
+                          <div class="form-group">
+              <label for="">Nom *</label>
+              <input
+                type="text"
+                placeholder="Votre nom "
+                required
+                pattern="\p{L}+([ '\-]\p{L}+)*"
+                
+              />
+              <p class="success">Champ valide.</p>
+              <p class="error">
+                Utilisez uniquement des lettres, espaces, apostrophes ou tirets.
+              </p>
+            </div>
+            <div class="form-group">
+              <label for="">Prénom *</label>
+              <input
+                type="text"
+                placeholder="Votre Prénom "
+                required
+                pattern="\p{L}+([ '\-]\p{L}+)*"
+                
+              />
+                            <p class="success">Champ valide.</p>
+              <p class="error">
+                Utilisez uniquement des lettres, espaces, apostrophes ou tirets.
+              </p>
+            </div>
+            <div class = "form-group">
+              <label for="">Adresse e-mail *</label>
+              <input
+                type="email"
+                placeholder="Votre Adresse e-mail *"
+                required
+                
+              />
+                      <p class="success">Adresse e-mail valide.</p>
+        <p class="error">
+            Erreur : saisissez une adresse valide, par exemple nom@domaine.ma.
+        </p>
+            </div>
+            <div class = form-group>
+              <label for="">Téléphone *</label>
+              <input
+                type="tel"
+                placeholder="06 12 34 56 78"
+                required
+                minlength="10"
+                maxlength="10"
+                 pattern="0[5-7][0-9]{8}"
+              />
+                <p class="success">numero valide.</p>
+              <p class="error">
+                Utilisez uniquement des chifres42.
+              </p>
+            </div>
+            </div>
+
+            <div class="form-group">
+              <label for="">Événement choisi *</label>
+              <select name="" id="" class="select" required >
+                <option value="" disabled selected>Choisir un événement</option>
+                <option value="atelier">Atelier</option>
+                <option value="conférence">Conférence</option>
+                <option value="hackathon">Hackathon</option>
+                <option value="rencontre">Rencontre</option>
+              </select>
+                  <p class="error">
+        Veuillez sélectionner un événement.
+    </p>
+    <p class = "success">champ valid</p>
+            </div>
+            <p class="state">Niveau *</p>
+            <div class="niveau">
+              <label class="radio-option">
+                <input type="radio" name="niveau" checked />
+                Débutant
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="niveau" />
+                Intermédiaire
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="niveau" />
+                Avancé
+              </label>
+            </div>
+            <p class="facultatif">Message (facultatif)</p>
+            <textarea
+              placeholder="Vos attentes, vos questions…"
+              rows="7"
+            ></textarea>
+            <label class="check-option">
+              <input type="checkbox" />
+              <span class="check"
+                >J'accepte que mes données servent à gérer mon inscription.*</span
+              >
+            </label>
+
+            <input class="send" type="submit" value="Valider mon inscription" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer-p">
+            <div class = "big">
+              <h2>Youcode Events</h2>
+              <p class ="dawn">Les ateliers, conférences, hackathons et rencontres de YouCode, réunis au même endroit.</p>  
+            </div>
+            <div class = "wd">
+               <p class = "up">Navigation</p>
+            <p class ="dawn">Accueil</p>
+            <p class ="dawn">Événements</p>
+            <p class ="dawn">Intervenants et partenaires</p>
+            <p class ="dawn">Inscription</p>  
+            </div>
+            <div class = "wd-two">
+                <p class = "up">Contact</p>
+            <p class ="dawn">contact@youcode-events.example</p>
+            <p class ="dawn">Youssoufia · Safi · Nador</p> 
+            </div>
+        </div>
+        <p class = "reserved">© 2026 YouCode Events — site fictif réalisé en formation.</p>
+    </footer>
+  </body>
+</html>
