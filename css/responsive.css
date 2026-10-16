@@ -21,15 +21,8 @@
         color:#C2410C;
         border-bottom: 1px solid #C2410C;
     }
-    .Sinscrire-two{
-        background-color: #C2410C;
-        border: 1px solid #423f3d;
-        border-radius: 15px;
-        color: #FFFFFF;
-        margin-top: 10px;
-        padding: 10px 20px;
-        height: 40px;
-        margin-right: 25px;
+    .button{
+        margin-top:100px;
     }
     .mobile-menu{
         display: none;

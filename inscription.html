@@ -21,19 +21,25 @@
   </head>
   <body>
     <header>
-      <nav class="navigation">
-        <div class="logo">
-          <p>Youcode <span class="Events">Events</span></p>
-        </div>
-        <button class="menue"><i class="fa-solid fa-bars"></i></button>
-                <ul class = "nav-links" id="nav-links">
-            <li><a href="">Accueil</a></li>
-            <li><a href="">Événements</a></li>
-            <li><a href="">Intervenants</a></li>
-            <li><a class="Sinscrire" href="">S'inscrire</a></li>
-        </ul>
+          <h2>Youcode <span>Events</span></h2>
+        <nav class = "desktop-menu">
+            <a href="index.html">Accueil</a>
+            <a href="evenements.html">Événements</a>
+            <a href="intervenants.html">Intervenants</a>
+            <button><a href="inscription.html">S'inscrire</a></button>
       </nav>
+      <div class ="hamburger">
+      <i class="fa-solid fa-bars"></i>
+      </div>
     </header>
+        <nav class = "mobile-menu">
+            <div class = "links hidden">
+            <a href="index.html">Accueil</a>
+            <a href="evenements.html">Événements</a>
+            <a href="intervenants.html">Intervenants</a>
+            <a class="Sinscrire" href="inscription.html">S'inscrire</a>
+            </div>
+        </nav>
     <main>
       <section class="inscription">
         <h2 class="first_pragraph">Inscription</h2>
@@ -153,30 +159,26 @@
         </div>
       </section>
     </main>
-    <footer class="footer-2">
-      <div>
-        <p class="footer-title">YouCode Events</p>
-        <p class="footer-element">
-          Les ateliers, conférences, hackathons et rencontres de YouCode, réunis
-          au même endroit.
-        </p>
-      </div>
-      <div>
-        <p class="footer-element special">Navigation</p>
-        <p class="footer-element">Accueil</p>
-        <p class="footer-element">Événements</p>
-        <p class="footer-element">Intervenants et partenaires</p>
-        <p class="footer-element">Inscription</p>
-      </div>
-      <div>
-        <p class="footer-element special">Contact</p>
-        <p class="footer-element">contact@youcode-events.example</p>
-        <p class="footer-element">Youssoufia · Safi · Nador</p>
-      </div>
-      <hr />
-      <p class="footer-element">
-        © 2026 YouCode Events — site fictif réalisé en formation.
-      </p>
+    <footer>
+        <div class="footer-p">
+            <div class = "big">
+              <h2>Youcode Events</h2>
+              <p class ="dawn">Les ateliers, conférences, hackathons et rencontres de YouCode, réunis au même endroit.</p>  
+            </div>
+            <div class = "wd">
+               <p class = "up">Navigation</p>
+            <p class ="dawn">Accueil</p>
+            <p class ="dawn">Événements</p>
+            <p class ="dawn">Intervenants et partenaires</p>
+            <p class ="dawn">Inscription</p>  
+            </div>
+            <div class = "wd-two">
+                <p class = "up">Contact</p>
+            <p class ="dawn">contact@youcode-events.example</p>
+            <p class ="dawn">Youssoufia · Safi · Nador</p> 
+            </div>
+        </div>
+        <p class = "reserved">© 2026 YouCode Events — site fictif réalisé en formation.</p>
     </footer>
   </body>
 </html>
