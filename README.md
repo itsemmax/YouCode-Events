@@ -1,6 +1,6 @@
 # YouCode Events
 
-![Aperçu du site YouCode Events](assets/images/screenshot.png)
+![Aperçu du site YouCode Events](assets/images/readme.png)
 
 Site web fictif présentant les événements de YouCode (ateliers, conférences,
 hackathons, rencontres) et permettant de s'y inscrire. Il est responsive
