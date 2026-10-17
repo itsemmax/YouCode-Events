@@ -1,5 +1,4 @@
 @media (min-width: 768px) {
-    /**/
     .desktop-menu{
         display:flex;
         gap:20px;
@@ -21,23 +20,24 @@
         color:#C2410C;
         border-bottom: 1px solid #C2410C;
     }
-    button{
+    .desktop-menu button{
         background-color: #C2410C;
         border: 1px solid #423f3d;
         border-radius: 15px;
         margin-top: 10px;
         height: 45px;
-        width: 70px;
+        padding: 0 16px;
+        width: auto;
         margin-right: 25px;
+        cursor: pointer;
     }
-    button > a{
+    .desktop-menu button > a{
         text-decoration: none;
         color: #FFFFFF;
     }
     .mobile-menu{
         display: none;
     }
-    /**/
     .img-ag{
         padding: 80px 250px;
     }
@@ -92,6 +92,12 @@
     .ctg{
         gap:35px;
     }
+    .categorie{
+        width: 300px;
+    }
+    .explorer{
+        margin: 35px 0px;
+    }
     .prfl-grid{
         display: grid;
         grid-template-columns:repeat(2,1fr);
@@ -108,36 +114,6 @@
          margin-left: 3%;
          margin: 35px 30px;
     }
-    /**/
-    /* .big-title {
-        margin-left: 25px;
-        font-size: 20px;
-    }
-    .hero-paragraph {
-        font-size: 15px;
-    }
-    .desktop-menu {
-        display: flex;
-        list-style: none;
-       gap: 24px;
-       align-items: center;
-       margin-right: 25px;
-    }
-    .desktop-menu a{
-        text-decoration: none;
-        color: black;
-    }
-    .Sinscrire {
-        background-color: #C2410C;
-        padding: 10px;
-        border-radius: 5px;
-        color: white;
-     }
-    .desktop-menu a:hover {
-        color: #C2410C;
-        border-bottom: 1px solid #C2410C;
-    } */
-    /**/
     footer .footer-p {
         display: flex;
         gap:10px;
@@ -195,50 +171,32 @@
     .part{
     padding :25px 15px;
     }
-
-    /**/
+    
+    .inscription {
+        padding: 45px 20px;
+    }
     .first_pragraph {
-        margin-left: 3%;
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 38px;
     }
     .reservez{
         font-size: 18px;
-        font-weight: 400;
-        margin-top: -2%;
-
     }
-
-    .champs {
-        margin-bottom: 0%;
-        margin-top: -3%;
-
+    .login_info {
+        padding: 36px 32px;
     }
     .four-colum{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4%;
+        gap: 35px;
     }
-    .check-option input[type="checkbox"] {
-        height: 26px;
-        margin-top: 3%;
-        width: 4%;
 
-    }
-    .check {
-        margin-top: 3%;
-        margin-left: 1%;
-    }
     .send {
-        width: 36%;
-        margin-top: 4%;
-        margin-bottom: 5%;
+        width:240px;
     }
 }
 
 
 @media (min-width: 1440px) {
-    /**/
     .hamburger{
     display: none;
     }
@@ -251,7 +209,6 @@
     header>h2{
         margin-left: 70px;
     }
-    /**/
     .hero {
         display: flex;
         justify-content: space-around;
@@ -351,11 +308,6 @@
         grid-column: 1 / -1;
         font-size: 16px;  
     }
-    /**/
-    /* nav .menu {
-        display: none;
-    } */
-    /**/
     .prfl-grid{
         display: grid;
         grid-template-columns:repeat(3,1fr);
@@ -371,19 +323,11 @@
     .Hero-section-two > p{
         width: 700px;
     }
-    /**/
     .login_info{
-        max-width: 768px;
-        margin-inline: 22%;
-        margin-top: 5%;
+        max-width: 780px;
+        margin: 50px 350px;
     }
-
     .inscription {
-        padding: 1%;
-        padding-bottom: 4%;
+        padding: 50px 70px;
     }
-    .first_pragraph {
-        margin-left: 8%;
-    }
-
 }
