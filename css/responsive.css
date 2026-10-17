@@ -38,65 +38,67 @@
     .mobile-menu{
         display: none;
     }
-    .img-ag{
-        padding: 80px 250px;
+    .evnt-txt > h1 {
+        font-size: 40px;
     }
-    .voir{
-        width:200px;
+    .txt {
+        font-size: 18px;
+        width: 720px;
+        line-height: 30px;
     }
-    .inscrire{
-        width:150px;
-        margin-left: 10px;
+    .hero-btns {
+        flex-direction: row;
+        gap: 12px;
     }
-    .txt{
-        width:550px;
+    .voir, .inscrire {
+        padding: 0 24px;
     }
-    .evnt-txt{
-       margin-top: 25px;
+    .img-ag {
+        width: 300px;
+        padding: 50px 215px;
     }
     .line{
         display: flex;
-        justify-content: space-between;
-        margin: 0px 10px;
+        gap:320px;
     }
-    .two-cards{
+    .cards {
         display: flex;
-        gap : 55px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 30px;
     }
-    .stats{
+    .card {
+        max-width:350px;
+    }
+    .stats {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .pb{
+        padding: 15px 0px;
+    }
+    .two {
         display: flex;
-        justify-content: space-around;
+        gap:95px;
     }
-    .two{
-        gap: 90px;
+    .one > h2, .pb > h2 {
+        font-size: 34px;
     }
-    .ctg{
+    .one > p, .pb > p {
+        font-size: 13px;
+        width:120px;
+    }
+    .explorer > h2 {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+    .ctg {
         display: flex;
-        margin: 0px 10px;
+        flex-direction: row;
     }
-    .categorie{
-        width: 300px;
-    }
-    .explorer{
-        margin: 35px 0px;
-    }
-    .card-img{
-        width: 330px;
-        height:200px;
-    }
-    .card{
-        height:400px;
-        width: 330px;
-        margin-top: 15px;
-    }
-    .ctg{
-        gap:35px;
-    }
-    .categorie{
-        width: 300px;
-    }
-    .explorer{
-        margin: 35px 0px;
+    .categorie {
+        width: 90%;
+        padding: 26px 20px;
     }
     .prfl-grid{
         display: grid;
@@ -106,7 +108,7 @@
     .profiles{
         width:280px;
     }
-  .a-venir {
+    .a-venir {
         grid-template-columns: 1fr 1fr;
     }
     .avenir-title {
@@ -128,16 +130,16 @@
         font-size: 15px;  
     }
     .footer-p .up {
-    font-size: 18px;
+        font-size: 18px;
     }
     .dawn {
-    font-size: 14px;
+        font-size: 14px;
     }
     .a-venir .event-1 {
-            margin-inline: 23px;
+        margin-inline: 23px;
     }
     main .Hero-section {
-    padding: 40px 20px;   
+        padding: 40px 20px;   
     }
     .Hero-section-two > h1{
         margin: 0px 45px;
@@ -156,22 +158,21 @@
     }
     .partenaires > h2{
         margin: 0px 45px;
-        width: 500px;
+        /* width: 500px; */
         padding: 15px 0px;
     }
     .partenaires > p{
         margin: 0px 45px;
-        width:690px;
+        /* width:690px; */
     }
-   .all-part{
-    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
-    margin: 20px 45px;
-    gap:20px;
+    .all-part{
+        grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+        margin: 20px 45px;
+        gap:20px;
     }
     .part{
-    padding :25px 15px;
+        padding :25px 15px;
     }
-    
     .inscription {
         padding: 45px 20px;
     }
@@ -189,84 +190,71 @@
         grid-template-columns: 1fr 1fr;
         gap: 35px;
     }
-
     .send {
         width:240px;
     }
 }
 
-
 @media (min-width: 1440px) {
-    .hamburger{
-    display: none;
-    }
-    .mobile-menu{
-        display: none;
-    }
-    .Sinscrire-two{
-        margin-right: 70px;
-    }
     header>h2{
         margin-left: 70px;
     }
-    .hero {
-        display: flex;
-        justify-content: space-around;
-    }
-    .evnt-txt {
-        margin-right: 110px;
-    }
     .evnt-txt > h1{
-        font-size: 32px;
+        width:650px;
     }
-    .voir{
-        width:200px;
+    .txt{
+        width:700px;
     }
-    .inscrire{
-        width:150px;
-        margin-left: 10px;
+
+    .img-ag {
+        width: 350px;
+        padding: 60px;
     }
-    .img-ag{
-        padding: 50px;
-        margin-left: 20px;
+    .line {
+        gap:810px;
     }
-    .cards{
+    .line h2 {
+        font-size: 28px;
+    }
+    .cards {
         display: flex;
-        gap : 55px;
+        gap: 110px;
     }
-    .two{
-        gap: 150px;
+
+    .card-img {
+        height: 175px;
+    }
+
+    .two {
+        gap:250px;
     }
     .ctg{
-        display: flex;
-        gap:5px;
+        gap:40px;
     }
     .one-line{
-        display:flex;
+        display: flex;
+        gap:40px;
+        flex-direction: row;
     }
-    .categorie{
-        width:240px;
-        margin: 20px 10px;
+    .categorie {
+        width: 260px;
+        margin: 0;
     }
-    .pr-events{
-        margin: 0px 50px;
+    .hero {
+        padding:0px 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-    .one{
-        margin-right: 70px;
+    .pr-events {
+        padding:40px 70px;
     }
-    .explorer{
-        margin: 0px 50px;
+    .stats {
+        gap: 250px;
+       padding:40px 70px;
     }
-    .two{
-        margin-right: 130px;
-    }
-    .card-img{
-        width: 370px;
-        border-radius:15px 15px 0px 0px;
-    }
-    .card{
-        width: 370px;
-        margin-top: 15px;
+    .explorer {
+        padding:40px 70px;
     }
     .a-venir {
         grid-template-columns: 1fr 1fr 1fr;
@@ -274,35 +262,35 @@
         margin-right: 3%;
     }
     .big-title {
-      margin-left: 60px;
-      font-size: 30px;
-   }
-   .footer-p .up {
-    font-size: 20px;
-  }
-  .big > p{
+        margin-left: 60px;
+        font-size: 30px;
+    }
+    .footer-p .up {
+        font-size: 20px;
+    }
+    .big > p{
         width:450px;
     }
     .big{
         width: 950px;
     }
-  .dawn {
-    font-size: 16px;
-  }
-    main .Hero-section {
-    padding: 30px 20px;   
-  }
-  main .heading {
-    margin-left: 50px;
-  }
-  .hero-paragraph {
-    margin-left: 50px;
-  }
-  .heading {
-      font-size: 23px;
+    .dawn {
+        font-size: 16px;
     }
-     .a-venir .event-1 {
-            margin-inline: 30px;
+    main .Hero-section {
+        padding: 30px 20px;   
+    }
+    main .heading {
+        margin-left: 50px;
+    }
+    .hero-paragraph {
+        margin-left: 50px;
+    }
+    .heading {
+        font-size: 23px;
+    }
+    .a-venir .event-1 {
+        margin-inline: 30px;
     }
     .a-venir .sous {
         grid-column: 1 / -1;
